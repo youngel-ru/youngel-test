@@ -1,0 +1,12 @@
+body{
+    background-image: url("../img/background.jpeg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.mainBox{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    
+}
