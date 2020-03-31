@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@700;900&display=swap');
+
+body {
+  background-image: url("../img/background2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.mainBox {
+  max-height: 100vh;
+  background-color: #fadfbe;
+  opacity: 0.70;
+}
+
+.mainName {
+  text-shadow: 1px 1px 2px white, 0 0 1em;
+  font-size: 6em;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainDesc {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  margin-top: 0.5em;
+}
+
+.betaText {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.textCreate, .textIF{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6rem;
+    margin-bottom: 100px;
+    font-size: xx-large;
+}
+
+.formCreate{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.labelBtn{
+  background-color: #faa741;
+  border-color: black;
+  margin-left: 3rem;
+  border: 2px solid black;
+}
+
+#inputName{
+  background-color: #faa741;
+  -webkit-appearance: none;
+  height: 48px;
+  font-size: 16px;
+  border-color: black;
+  transition: all .15s ease;
+  
+}
+
+.room-card{
+  background-color: #f58a3d;
+  margin-left: 6%;
+  margin-top: 4%;
+  width: 18rem;
+}
+
+@media (min-width: 1200px) {
+  #inputName {
+    margin-left: 11rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #inputName {
+    margin-left: 9rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .mainBox{
+    height: 250vh;
+  }
+
+  #inputName {
+    margin-left: 6rem;
+  }
+
+  .room-card{
+    margin-top: 5%;
+    margin-bottom: 100vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .room-card{
+    margin-top: 5%;
+    margin-bottom: 20vh;
+  }
+
+  #inputName {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+}
+
+
+

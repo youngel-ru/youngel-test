@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    background-image: url("../img/background-room.jpeg");
+    /* background-attachment: fixed; */
+}
+
+.mega-box{
+    width: 120vh;
+  background-color: #fadfbe;
+  opacity: 0.75;
+  border-color: black;
+  background-attachment: local;
+  height: 100vh;
+  position:relative;
+}
+
+.form-container{
+    position:absolute;
+	bottom:3%;
+}
+
+.inpu{
+    -webkit-appearance: none;
+    height: 48px;
+    font-size: 16px;
+    transition: all .15s ease;
+    background-color: #faa741;
+    border: 2px solid black;
+    /* margin-left: 5rem; */
+}
+
+.form-container button{
+    background-color: #faa741;
+    margin-left: 2%;
+    border: 2px solid black;
+}
+
+.btnLeave button{
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: #faa741;
+    border: 2px solid black;
+}
+
+.messageBox1{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: chocolate;
+    font-size: x-large;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    word-wrap: break-word;
+}
+.messageBox2{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #ed8f80;
+    font-size: x-large;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    word-wrap: break-word;
+}
+.messageBox3{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: gray;
+    font-size: x-large;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    word-wrap: break-word;
+}

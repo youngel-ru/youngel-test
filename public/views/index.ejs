@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- MetaTegs -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Youngel - Сервис для общения с людьми" />
+    <meta name="Keywords" content="Youngel, youngel, duo chat, beta, Йангел, йангел, чат, комната" />
+
+    <!-- Styles -->
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Youngel | Главная</title>
+
+    <!-- Scripts -->
+    <!-- Bootstrap -->
+    <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Other -->
+    <script defer src="http://localhost/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>  
+  </head>
+  <body>
+    <div class="container mainBox center-block">
+      <div class="mainName text-center font-weight-bold">
+        <span>Y</span>oungel
+      </div>
+      <div class="mainDesc text-center font-weight-bold">
+        Сервис для общения с людьми
+      </div>
+      <div class="betaText text-center">BETA</div>
+      <div class="textCreate text-center">Создайте свою комнату</div>
+      <div id="room-container" class="formCreate">
+        <form action="/room" method="POST" class="row" id="form1" onsubmit="lenn()">
+          <input type="text" class="col-5" id="inputName" name="room" placeholder="Название комнаты (Max кол-во человек в комнате: 2)" required />
+          <!-- <input type="text" class="col-3" id="inputNick" name="room" placeholder="Ваш Nickname" required /> -->
+          <input class="btn labelBtn col-2" type="submit" value="Создать">
+        </form>
+      </div>
+      <div class="textIF text-center">Или войдите в существующую:</div>
+    
+    <div class="roomList row" id="room-box">
+      <!-- <% Object.keys(rooms).forEach((room, name) => { 
+        if(room.length > 15){
+          room = room.slice(0, 16) + "...";
+        } %>
+      <div class="card room-card col-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><%= room %></h5>
+           <h6 class="card-subtitle mb-2 text-muted">Создатель: <%= name %></h6>
+           <a href="/<%= room %>" class="card-link">Войти</a>
+        </div>
+      </div>
+      <% }) %> -->
+    </div>
+  </div>
+
+    
+  </body>
+</html>
