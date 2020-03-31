@@ -65,7 +65,6 @@ body {
   font-size: 16px;
   border-color: black;
   transition: all .15s ease;
-  
 }
 
 .room-card{
@@ -92,8 +91,13 @@ body {
     font-size: 2em;
   }
 
+  .textCreate, .textIF {
+    margin-top: 3rem;
+    font-size: 2em;
+  }
+
   #inputName {
-    margin-left: 11rem;
+    margin-left: 7rem;
   }
 }
 
@@ -114,9 +118,13 @@ body {
     font-size: 2em;
   }
 
+  .textCreate, .textIF {
+    margin-top: 3rem;
+    font-size: 1.5em;
+  }
 
   #inputName {
-    margin-left: 9rem;
+    margin-left: 6rem;
   }
 }
 
@@ -133,12 +141,20 @@ body {
     font-size: 2em;
   }
 
+  .textCreate {
+    margin-top: 2rem;
+  }
+
   .betaText {
     font-size: 2em;
   }
 
   #inputName {
-    margin-left: 6rem;
+    margin-left: 4rem;
+  }
+
+  #inputBtn {
+    margin-left: 2em;
   }
 
   .room-card{
@@ -171,7 +187,11 @@ body {
 
 
   #inputName {
-    margin-left: 3rem;
+    margin-left: 2rem;
+  }
+
+  #inputBtn {
+    margin-left: 1em;
   }
 }
 
