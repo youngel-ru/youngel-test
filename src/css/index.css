@@ -16,7 +16,7 @@ body {
 }
 
 .mainBox {
-  max-height: 100vh;
+  
   background-color: #fadfbe;
   opacity: 0.70;
 }
@@ -159,7 +159,6 @@ body {
 
   .room-card{
     margin-top: 5%;
-    margin-bottom: 100vh;
   }
 }
 
@@ -170,7 +169,6 @@ body {
 
   .room-card{
     margin-top: 5%;
-    margin-bottom: 20vh;
   }
 
   .mainName {
