@@ -2,7 +2,10 @@
 
 body{
     background-image: url("../img/background-room.jpeg");
-    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
 
 .mega-box{
@@ -27,7 +30,7 @@ body{
     transition: all .15s ease;
     background-color: #faa741;
     border: 2px solid black;
-    /* margin-left: 5rem; */
+    /* margin-left: 2rem; */
 }
 
 .form-container button{
@@ -72,4 +75,10 @@ body{
     margin-bottom: 2%;
     margin-top: 2%;
     word-wrap: break-word;
+}
+
+@media (max-width: 480px) {
+    .mega-box {
+        min-height: 100%;
+    }
 }

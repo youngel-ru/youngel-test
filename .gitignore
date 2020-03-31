@@ -1,3 +1,4 @@
 node_modules
 test.*
 public/index.html
+public/room.html
