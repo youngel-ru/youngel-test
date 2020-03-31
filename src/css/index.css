@@ -8,6 +8,13 @@ body {
   background-size: cover;
 }
 
+.github img{
+  width: 70px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .mainBox {
   max-height: 100vh;
   background-color: #fadfbe;
@@ -16,27 +23,27 @@ body {
 
 .mainName {
   text-shadow: 1px 1px 2px white, 0 0 1em;
-  font-size: 6em;
   font-family: "Roboto", sans-serif;
 }
 
 .mainDesc {
   font-family: "Roboto", sans-serif;
-  font-size: 2.5em;
   margin-top: 0.5em;
 }
 
 .betaText {
   font-family: "Roboto", sans-serif;
-  font-size: 2em;
   margin-top: 1em;
 }
 
-.textCreate, .textIF{
+.textCreate {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 6rem;
-    margin-bottom: 100px;
-    font-size: xx-large;
+    margin-top: 5rem;
+}
+
+.textIF {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: -5rem;
 }
 
 .formCreate{
@@ -69,21 +76,65 @@ body {
 }
 
 @media (min-width: 1200px) {
+  .mainBox {
+    min-height: 100vh;
+  }
+
+  .mainName {
+    font-size: 6em;
+  }
+
+  .mainDesc {
+    font-size: 2.5em;
+  }
+
+  .betaText {
+    font-size: 2em;
+  }
+
   #inputName {
     margin-left: 11rem;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .mainBox {
+    min-height: 100vh;
+  }
+
+  .mainName {
+    font-size: 5em;
+  }
+
+  .mainDesc {
+    font-size: 2em;
+  }
+
+  .betaText {
+    font-size: 2em;
+  }
+
+
   #inputName {
     margin-left: 9rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .mainBox {
+    min-height: 100vh;
+  }
 
-  .mainBox{
-    height: 250vh;
+  .mainName {
+    font-size: 4em;
+  }
+
+  .mainDesc {
+    font-size: 2em;
+  }
+
+  .betaText {
+    font-size: 2em;
   }
 
   #inputName {
@@ -97,10 +148,27 @@ body {
 }
 
 @media (max-width: 767px) {
+  .mainBox {
+    min-height: 100vh;
+  }
+
   .room-card{
     margin-top: 5%;
     margin-bottom: 20vh;
   }
+
+  .mainName {
+    font-size: 3em;
+  }
+
+  .mainDesc {
+    font-size: 1.5em;
+  }
+
+  .betaText {
+    font-size: 1.7em;
+  }
+
 
   #inputName {
     margin-left: 3rem;
@@ -108,8 +176,31 @@ body {
 }
 
 @media (max-width: 480px) {
+  .github {
+    width: 10px;
+  }
+  .betaText {
+    font-size: 1em;
+  }
 
+  .textCreate {
+    font-size: 1.2em;
+    margin-top: 2rem;
+  }
+
+  #form1 {
+    margin-top: -3em;
+  }
+
+  #inputName {
+    margin-left: 1em;
+  }
+
+  #inputBtn {
+    margin-left: 1em;
+  }
+
+  .textIF {
+    margin-top: 1rem;
+  }
 }
-
-
-
